@@ -27,7 +27,7 @@ module.exports = {
   template:
   'There was an error attempting to load `<%=adapterPackageName%>`.\n'+
   '<% if (typeof datastoreIdentity !== \'undefined\') { %>(Sails attempted to load this adapter because it is referenced by a datastore (`<%=datastoreIdentity%>`) in this app\'s configuration)\n<% } %>'+
-  'Please ensure that `<%=adapterPackageName%>` is a valid Sails/Waterline adapter, and that it is installed in this app.\n'+
+  'Please ensure that `<%=adapterPackageName%>` is a valid Sails/ adapter, and that it is installed in this app.\n'+
   '\n'+
   'Error details:\n'+
   '<%= originalErrorStackTrace %>'

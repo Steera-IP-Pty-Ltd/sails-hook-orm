@@ -1,5 +1,5 @@
 {
-  "name": "sails-hook-orm",
+  "name": "@steera/sails-hook-orm",
   "version": "4.0.1",
   "description": "The ORM hook from Sails core.",
   "main": "index.js",
